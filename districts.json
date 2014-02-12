@@ -1,0 +1,51 @@
+{
+    "drought": {
+        "copy": "<h2>Droughts in the South West</h2><p>California's ongoing severe drought is just one of many weather related maladies, which include heatwaves, flood and fire. Last year, America watched as its treasured Yosemite burned. This state takes climate disruption seriously, with an online portal for information: www.climatechange.ca.gov.</p> <p> The Rocky Mountain region has a variety of extreme weather possibilities to account for, primarily droughts, floods and wildfires. Utah's Salt Lake Tribune called on policymakers to 'acknowledge and mitigate' on climate impacts last November.  And who can forget Colorado's devastating floods last September? Melting watersheds and rising temperatures will hurt Montana as well. Wilderness lovers have put stories and science together in one place: www.climatechangemt.org to prompt action.</p>",
+        "districts": [
+            "ca-45",
+            "ut-04",
+            "ca-25",
+            "ca-31",
+            "ca-33"
+        ]
+    },
+    "flood": {
+        "copy": "<h2>Flooding in the Mid-Atlantic</h2><p>The flooding and related damage caused by Superstorm Sandy last year and Hurricane Irene in 2011 illustrate a weather intensity that we must address in local and national policy.  The northeastern seaboard can talk about resilience through recent experience. And former NYC Mayor Michael Bloomberg would make a great witness--he was just named the UN's new climate envoy.</p>",
+        "districts": [
+            "pa-06",
+            "ny-04",
+            "ny-21",
+            "nj-03"
+        ]
+    },
+    "pollution": {
+        "copy": "<h2>Pollution in the Virginias</h2><p>Ground zero in the battle between dirty coal and renewables, West Virginia could use a respite from the talking points battle. A heartbreakingly beautiful state, its trees, water and species habitats are at risk. The same goes for Virginia, whose dense population will also have to deal with the public health implications of bad air. The good news? the state's two retiring members are foreign policy wonks and would be great convenors of a public conversation on a new US strategy to mitigate and adapt.</p>",
+        "districts": [
+            "va-08",
+            "va-10",
+            "wv"
+        ]
+    },
+    "snow": {
+        "copy": "<h2>Snow in the South East</h2><p>A sudden snowstorm in January closes schools and clogs highways, stranding many.</p><p>The storm reveals lack of planning and resilient infrastructure leading  Georgia's Governor Deal to create a Severe Weather Task Force in February.  In January, Minnesota's Governor Dayton cancelled all public schools due to dangerous weather--the first time in 17 years.  And its expensive. In August, severe wind and hail generated 800 million in loss claims. As chair of the Armed Services Committee,  Michigan's Senator Levin has always had a broad and inclusive view of security. He also loves the Great Lakes, which are losing water due to less ice cover.</p>",
+        "districts": [
+            "mn-06",
+            "mi",
+            "ga",
+            "al-06"
+        ]
+    },
+    "tornado": {
+        "copy": "<h2>Tornado Valley</h2><p>Violent weather phenomena like the tragic Moore, Oklahoma last May are being studied for links to uneven weather patterns. Conclusive evidence or no, Tornado Alley and the Midwest have a lot at risk. With drought, floods, record breaking heat and snow and a retiring member in each chamber, Iowa might be the perfect place to begin the conversation about a national strategy for community resilience.</p> <p> No stranger to hurricanes and tornados, North Carolina's biggest worry in our changing climate is sea levels rising and even more immediate, its agriculture economy.  The state is home to one of the newly created regional 'climate hubs' set up by the Department of Agriculture to help farmers and rural communities cope. </p> ",
+        "districts": [
+            "ar-02",
+            "ia-03",
+            "sd",
+            "ok",
+            "ne",
+            "ia",
+             "nc-06",
+            "nc-07"
+        ]
+    }
+}
