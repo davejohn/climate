@@ -27,7 +27,7 @@
         ]
     },
     "snow": {
-        "copy": "<h2>Snow in the South East</h2><p>A sudden snowstorm in January closes schools and clogs highways, stranding many.</p><p>The storm reveals lack of planning and resilient infrastructure leading  Georgia's Governor Deal to create a Severe Weather Task Force in February.  In January, Minnesota's Governor Dayton cancelled all public schools due to dangerous weather--the first time in 17 years.  And its expensive. In August, severe wind and hail generated 800 million in loss claims. As chair of the Armed Services Committee,  Michigan's Senator Levin has always had a broad and inclusive view of security. He also loves the Great Lakes, which are losing water due to less ice cover.</p>",
+        "copy": "<h2>Extreme Snow</h2><p>A sudden snowstorm in January closes schools and clogs highways, stranding many.</p><p>The storm reveals lack of planning and resilient infrastructure leading  Georgia's Governor Deal to create a Severe Weather Task Force in February.  In January, Minnesota's Governor Dayton cancelled all public schools due to dangerous weather--the first time in 17 years.  And its expensive. In August, severe wind and hail generated 800 million in loss claims. As chair of the Armed Services Committee,  Michigan's Senator Levin has always had a broad and inclusive view of security. He also loves the Great Lakes, which are losing water due to less ice cover.</p>",
         "districts": [
             "mn-06",
             "mi",
@@ -36,16 +36,16 @@
         ]
     },
     "tornado": {
-        "copy": "<h2>Tornado Valley</h2><p>Violent weather phenomena like the tragic Moore, Oklahoma last May are being studied for links to uneven weather patterns. Conclusive evidence or no, Tornado Alley and the Midwest have a lot at risk. With drought, floods, record breaking heat and snow and a retiring member in each chamber, Iowa might be the perfect place to begin the conversation about a national strategy for community resilience.</p> <p> No stranger to hurricanes and tornados, North Carolina's biggest worry in our changing climate is sea levels rising and even more immediate, its agriculture economy.  The state is home to one of the newly created regional 'climate hubs' set up by the Department of Agriculture to help farmers and rural communities cope. </p> ",
+        "copy": "<h2>Tornado Alley</h2><p>Violent weather phenomena like the tragic Moore, Oklahoma last May are being studied for links to uneven weather patterns. Conclusive evidence or no, Tornado Alley and the Midwest have a lot at risk. With drought, floods, record breaking heat and snow and a retiring member in each chamber, Iowa might be the perfect place to begin the conversation about a national strategy for community resilience.</p> <p> No stranger to hurricanes and tornados, North Carolina's biggest worry in our changing climate is sea levels rising and even more immediate, its agriculture economy.  The state is home to one of the newly created regional 'climate hubs' set up by the Department of Agriculture to help farmers and rural communities cope. </p> ",
         "districts": [
             "ar-02",
-            "ia-03",
             "sd",
             "ok",
             "ne",
             "ia",
              "nc-06",
-            "nc-07"
+            "nc-07",
+            "ia-03"
         ]
     }
 }
