@@ -55,7 +55,7 @@ table {
 
 body {
     margin:0; padding:0;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Muli', sans-serif;
     color:#222;
     -webkit-font-smoothing:antialiased;
 }
@@ -75,17 +75,30 @@ p {
     padding: 10px 0;
     line-height: 18px;
     color: #555;
-    font-size: 14px;
+    font-size: 16px;
 }
-
+.prose a {
+  padding: 10px 0px;
+}
 small { font-size: 11px;}
 
 .pad2 {
-  padding: 20px;
+  padding: 25px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom:10px;
 }
 h2 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
+  padding:10px 0px;
+}
+h3 {
+ font-weight: bold;
+  font-size: 16px;
+  padding-bottom:10px;
 }
 /*-----------------------------------
   Map and container
@@ -94,20 +107,23 @@ h2 {
   position:absolute; top:0; bottom:0; width:100%;z-index: 0;
 }
 ul.nav {
-    background:rgba(235,235,235,1);
+    background: #fff;
+    background:rgba(255,255,255,0.9);
     position:absolute;
     width:100%;
     top:0px;
-    height: 40px;
     right:0px;
     left: 0px;
     border-bottom: 1px solid #ccc;
     z-index: 10; 
 }
 ul.nav li {
+  background: #fff;
+  background:rgba(255,255,255,0.9);
   display: inline-block;
-  width: 16.02%;
-  border-right: 1px solid #ccc;
+  float: left;
+  width: 16.46%;
+  border-right: 1px solid #ddd;
   overflow: hidden;
 }
 ul.nav li:last-child {
@@ -120,15 +136,40 @@ ul.nav li a{
   cursor: pointer;
   display: inline-block;
   text-align: center;
+  border-bottom: 4px solid #ccc;
+    -webkit-transition: border 1s, width 1s, height 1s, background-color 0.5s;
+    transition:border 1s, width 1s, height 1s, background-color 0.5s;
 }
-ul.nav li a.active {
-  background: #d6d6d6;
+
+ul.nav li a.active,
+ul.nav li a:hover {
+  background: #eee;
   font-weight: 700px;
+   color:#1E758B;
 }
+
+ul.nav li a.snow {
+  border-bottom: 4px solid #0074A5;
+}
+ul.nav li a.drought {
+  border-bottom: 4px solid #AA6827;
+}
+ul.nav li a.flood {
+  border-bottom: 4px solid #00a59c;
+}
+ul.nav li a.pollution {
+  border-bottom: 4px solid red;
+}
+ul.nav li a.tornado {
+  border-bottom: 4px solid #fCb737;
+}
+
  #info {
-    background:rgba(245,245,245,0.75);
+    background: #fff;
+    background:rgba(255,255,255,0.9);
     position:absolute;
-    width:320px;
+    max-width: 340px;
+    width:40%;
     top:50px;
     bottom:10px;
     right:10px;
@@ -136,4 +177,36 @@ ul.nav li a.active {
     z-index: 10;
     border: 1px solid #ccc;
     overflow-y: scroll;
+}
+#rep {
+    background: #fff;
+    background:rgba(255,255,255,0.9);
+    position:absolute;
+    width: 200px;    
+    top:50px;
+    height: 150px;
+    bottom:10px;
+    left:10px;
+    border-radius:2px;
+    z-index: 10;
+    display: none;
+    border: 1px solid #ccc;
+}
+
+@media only screen and (min-device-width : 100px) and (max-device-width : 1024px) {  
+  
+  #info {
+      background:rgba(255,255,255,0.9);
+      position:absolute;
+      width:100%;
+      top:50px;
+      bottom:10px;
+      right:10px;
+      left: 10px;
+      height: 30%;
+      border-radius:2px;
+      z-index: 10;
+      border: 1px solid #ccc;
+      overflow-y: scroll;
+  }
 }
