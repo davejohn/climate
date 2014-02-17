@@ -15,6 +15,7 @@ sunlight.config.API_KEY = 'ee2e1ac3f29047be84f682806f631a01'
 
 
 con = [	
+	{'name':'Hastings','state':'WA', 'category':'drought'},	
 	{'name':'Bachmann','state':'MN','category':'snow'},
 	{'name':'Campbell','state':'CA','category':'drought'},
 	{'name':'Coble','state':'NC','category':'tornado'},
@@ -25,7 +26,7 @@ con = [
 	{'name':'McCarthy','state':'NY','category':'flood'},
 	{'name':'McIntyre','state':'NC','category':'tornado'},
 	{'name':'McKeon','state':'CA','category':'drought'},
-	{'name':'Miller','state':'CA','category':'drought'},
+	# {'name':'Miller','state':'CA','category':'drought'},
 	{'name':'Moran','state':'VA','category':'pollution'},
 	{'name':'Owens','state':'NY','category':'flood'},
 	{'name':'Runyan','state':'NJ','category':'flood'},
@@ -59,6 +60,7 @@ def makeJsons(district):
 		url = 'geo/'+district+'.json';
 		config = json.loads(open(url).read())
 		return config['coordinates'][0]
+
 categories = {}
 for c in con:
 	categories[c['category']] = {}
@@ -78,7 +80,7 @@ def findDistricts():
 			
 			getBoundary(district_id, state)
 			geo = {}
-			geo['type']='Polygon'
+			geo['type']= 'Polygon'
 			geo['coordinates'] = makeJsons(district_id)
 			l['geometry'] = geo
 			prop = {}
@@ -97,6 +99,7 @@ def findDistricts():
 			except KeyError: # In some cases, 'party' is missing
 				party = None
 		# categories.append(catTemp)
+
 		statereps.append(l)
 	return statereps
 
@@ -104,14 +107,14 @@ congressmen = findDistricts()
 
 
 # Writeout districts.json
-writeout = json.dumps(categories, sort_keys=True, separators=(',',':'))
-f_out = open('districts.json', 'wb')
-f_out.writelines(writeout)
-f_out.close()
+#writeout = json.dumps(categories, sort_keys=True, separators=(',',':'))
+#f_out = open('districts.json', 'wb')
+#f_out.writelines(writeout)
+#f_out.close()
 
 # Writeout each senator.json
 for rep in congressmen:
 	writeout = json.dumps(rep, sort_keys=True, separators=(',',':'))
-	f_out = open('processed/%s.json' % rep['properties']['district'], 'wb')
+	f_out = open('processed_new/%s.json' % rep['properties']['district'], 'wb')
 	f_out.writelines(writeout)
 	f_out.close()

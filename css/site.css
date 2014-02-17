@@ -149,7 +149,7 @@ ul.nav li a:hover {
 }
 
 ul.nav li a.snow {
-  border-bottom: 4px solid #0074A5;
+  border-bottom: 4px solid #3E7964;
 }
 ul.nav li a.drought {
   border-bottom: 4px solid #AA6827;
@@ -158,7 +158,7 @@ ul.nav li a.flood {
   border-bottom: 4px solid #00a59c;
 }
 ul.nav li a.pollution {
-  border-bottom: 4px solid red;
+  border-bottom: 4px solid orange;
 }
 ul.nav li a.tornado {
   border-bottom: 4px solid #fCb737;
@@ -181,8 +181,8 @@ ul.nav li a.tornado {
 #rep {
     background: #fff;
     background:rgba(255,255,255,0.9);
-    position:absolute;
-    width: 200px;    
+    position:absolute; 
+    max-width: 30 0px;
     top:50px;
     height: 150px;
     bottom:10px;
@@ -192,21 +192,7 @@ ul.nav li a.tornado {
     display: none;
     border: 1px solid #ccc;
 }
-
-@media only screen and (min-device-width : 100px) and (max-device-width : 1024px) {  
-  
-  #info {
-      background:rgba(255,255,255,0.9);
-      position:absolute;
-      width:100%;
-      top:50px;
-      bottom:10px;
-      right:10px;
-      left: 10px;
-      height: 30%;
-      border-radius:2px;
-      z-index: 10;
-      border: 1px solid #ccc;
-      overflow-y: scroll;
-  }
+.leaflet-right {
+  left: 0 !important;
+  right: auto !important;
 }

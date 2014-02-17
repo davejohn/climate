@@ -1,6 +1,6 @@
 {
-    "geometry": {
-        "coordinates": [
+    "coordinates": [
+        [
             [
                 [
                     -118.893318,
@@ -21383,18 +21383,7 @@
                     34.817972
                 ]
             ]
-        ],
-        "type": "Polygon"
-    },
-    "properties": {
-        "contact_form": "http://mckeon.house.gov/contact/",
-        "district": "ca-25",
-        "name": "Rep. Howard McKeon (R) *",
-        "phone": "202-225-1956",
-        "term_end": "2015-01-03",
-        "term_start": "2013-01-03",
-        "twitter": "BuckMcKeon",
-        "website": "http://mckeon.house.gov"
-    },
-    "type": "Feature"
+        ]
+    ],
+    "type": "MultiPolygon"
 }
